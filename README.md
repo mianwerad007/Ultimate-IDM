@@ -37,7 +37,9 @@ Required DLLs: libwinpthread-1.dll, libgcc_s_seh-1.dll, and libstdc++-6.dll
 Run the Application:
 
 Double-click downloader.exe to launch the V13 Gold interface
+
 🛠 Troubleshooting
+
 If you receive a "Procedure entry point nanosleep64 could not be located" error:
 
 Ensure your Windows OS is fully updated.
