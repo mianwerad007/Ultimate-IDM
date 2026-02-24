@@ -8,21 +8,41 @@ Ultimate IDM is a professional-grade download manager developed in C++ to provid
 * **Universal Media Grabber:** Download 4K videos or extract MP3s from almost any platform.
 * **Smart Monitoring:** No need to manually paste links; the app watches your clipboard for you.
 * **Advanced Networking:** Full support for custom proxies and the `myidm://` protocol.
-* 
+  
 📥 How to Install & Run
-Download the Release: Go to the Releases section on the right side of this GitHub page and download the UDM_Portable.zip file.
+Follow these steps to get UDM running on your system:
 
-Extract the Files: Right-click the downloaded .zip and select Extract All.
+Download the Package:
 
-Check Dependencies: Ensure that aria2c.exe, yt-dlp.exe, and the included .dll files are in the same folder as downloader.exe.
+Navigate to the Releases section on the right side of this GitHub repository.
 
-Run the App: Double-click downloader.exe to start.
+Download the latest UDM_Portable.zip file.
 
-🛠 Troubleshooting: "Entry Point Not Found"
-If you see an error mentioning nanosleep64:
+Extract the Files:
 
-Update Windows: Ensure your Windows 10 or 11 is up to date.
+Right-click the downloaded .zip file and select Extract All.
 
-Install Runtimes: Download and install the Microsoft Visual C++ Redistributable.
+Important: Keep all files together in the same folder. Do not move downloader.exe away from its support files.
 
-Check DLLs: Make sure libwinpthread-1.dll is present in the application folder.
+Verify Dependencies:
+
+Ensure the following files are present in the extracted folder to avoid "Entry Point Not Found" errors:
+
+downloader.exe (The main application)
+
+aria2c.exe & yt-dlp.exe (The core engines)
+
+Required DLLs: libwinpthread-1.dll, libgcc_s_seh-1.dll, and libstdc++-6.dll
+
+Run the Application:
+
+Double-click downloader.exe to launch the V13 Gold interface
+🛠 Troubleshooting
+If you receive a "Procedure entry point nanosleep64 could not be located" error:
+
+Ensure your Windows OS is fully updated.
+
+Install the Microsoft Visual C++ Redistributable.
+
+Confirm that libwinpthread-1.dll is in the same directory as your .exe.
+
