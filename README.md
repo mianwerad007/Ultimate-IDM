@@ -44,6 +44,10 @@ If you receive a "Procedure entry point nanosleep64 could not be located" error:
 
 Ensure your Windows OS is fully updated.
 
+download link(
+javascript:(function(){window.location.href='myidm://'+window.location.href;})();
+)
+
 Install the Microsoft Visual C++ Redistributable.
 
 Confirm that libwinpthread-1.dll is in the same directory as your .exe.
