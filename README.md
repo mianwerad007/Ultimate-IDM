@@ -5,9 +5,9 @@
 A fast download manager for Windows — video, audio, and direct file downloads, with a
 browser extension for one-click grabs. No installer, no bloat: unzip and run.
 
-[![Release](https://img.shields.io/github/v/release/YOUR_USERNAME/UltimateDownloader?label=latest%20release)](../../releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/YOUR_USERNAME/UltimateDownloader/total)](../../releases)
-[![License](https://img.shields.io/github/license/YOUR_USERNAME/UltimateDownloader)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/mianwerad007/UltimateDownloader?label=latest%20release)](../../releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/mianwerad007/UltimateDownloader/total)](../../releases)
+[![License](https://img.shields.io/github/license/mianwerad007/UltimateDownloader)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D6)](#installation)
 
 </div>
@@ -15,7 +15,7 @@ browser extension for one-click grabs. No installer, no bloat: unzip and run.
 ---
 
 <p align="center">
-  <img src="docs/screenshots/main-window.png" width="850" alt="Ultimate Downloader main window">
+  <img src="screenshots/main-window.png" width="850" alt="Ultimate Downloader main window">
 </p>
 
 ## Features
