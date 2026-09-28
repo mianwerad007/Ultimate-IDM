@@ -1,0 +1,5 @@
+#include "resource.h"
+
+// Embeds the app icon so UltimateDownloaderGUI.exe shows a real icon
+// in Explorer, the taskbar, and Alt-Tab, instead of the generic exe icon.
+IDI_APP_ICON ICON "app_icon.ico"

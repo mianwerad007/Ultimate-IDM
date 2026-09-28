@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { width: 340px; font-family: "Segoe UI", sans-serif; background: #12141a; color: #e0e3ea; padding: 10px; margin: 0; }
+  h3 { margin: 4px 0 10px; font-size: 13px; color: #7fb0ff; text-transform: uppercase; letter-spacing: 0.5px; }
+  .link-row { display: flex; align-items: center; justify-content: space-between; background: #1c1f28; border-radius: 6px; padding: 6px 8px; margin-bottom: 6px; gap: 6px; }
+  .link-text { font-size: 11px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; color: #b7bcc7; }
+  button { background: #2f80ed; color: white; border: none; border-radius: 4px; padding: 5px 10px; cursor: pointer; font-size: 11px; flex-shrink: 0; }
+  button:hover { background: #4a90f5; }
+  input, select { width: 100%; box-sizing: border-box; margin-top: 4px; margin-bottom: 10px; padding: 7px; border-radius: 4px; border: 1px solid #2a2d38; background: #1c1f28; color: #e0e3ea; font-size: 12px; }
+  hr { border: none; border-top: 1px solid #262a35; margin: 12px 0; }
+  #sendManual { width: 100%; padding: 9px; font-size: 12px; }
+  .empty { font-size: 12px; color: #666; padding: 8px 2px; }
+  .status { font-size: 11px; min-height: 14px; margin: -4px 0 8px; }
+  .status.ok { color: #6ede8a; }
+  .status.err { color: #e06666; }
+  .page-row { background: #1c2636; border: 1px solid #2f4060; }
+</style>
+</head>
+<body>
+  <h3>Detected on this page</h3>
+  <div id="links"><div class="empty">Scanning...</div></div>
+
+  <hr>
+
+  <h3>Or paste a link</h3>
+  <input id="manualUrl" placeholder="https://...">
+  <select id="quality">
+    <option value="best">Best quality</option>
+    <option value="1080p">1080p</option>
+    <option value="720p">720p</option>
+    <option value="480p">480p</option>
+    <option value="audio">Audio only (MP3)</option>
+  </select>
+  <div id="manualStatus" class="status"></div>
+  <button id="sendManual">Send to Ultimate Downloader</button>
+  <script src="popup.js"></script>
+</body>
+</html>
